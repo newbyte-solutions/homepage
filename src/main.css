@@ -5,3 +5,11 @@
 body {
     overflow-x: hidden;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.clip-path-custom {
+    clip-path: polygon(0% 20%, 100% 10%, 100% 90%, 0% 80%);
+}
